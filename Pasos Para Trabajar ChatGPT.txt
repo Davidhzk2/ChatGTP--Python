@@ -1,0 +1,16 @@
+Pasos para trabajar con ChatGPT IA
+
+1. ubicarse en la carpeta y crear un fichero con el que va a trabajar.
+2. Instalar la libreria de ChatGPT  con el gestor de paquetes PIP
+	pip install openai
+3. importar la dependencia de openai en el fichero
+	import openai
+3. llamar al modulo de openai y la clase de Completion
+	openai.Completion
+4. acceso a la api de openai
+	https://openai.com/api
+	Views API KEY
+5. generar una nueva API KEY 
+
+
+python -u nombrefichero.py --> para ejecutar el archivo en la terminal 
