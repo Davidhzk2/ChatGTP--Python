@@ -1,6 +1,7 @@
+import os 
 import openai
 
-openai.api_key = "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"
+openai.api_key = os.getenv("OPENAI_API_KEY")
 
 def createText():
     while(True):
